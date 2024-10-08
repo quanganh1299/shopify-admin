@@ -1,0 +1,60 @@
+.formContainer {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.fileContainer {
+    display: flex;
+}
+
+.closeIcon {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.closeIcon::before {
+    content: "";
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    opacity: 0.75;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.closeIcon:hover::before {
+    opacity: 0.75;
+    display: inline-block;
+}
+
+.error {
+    display: flex;
+    height: 20px;
+    color: #8e0b21;
+    column-gap: 5px;
+    margin-top: -10px;
+}
+
+.error svg {
+    color: inherit;
+}
+
+.errorText {
+    color: inherit;
+}

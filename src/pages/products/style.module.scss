@@ -1,0 +1,23 @@
+.title {
+    font-size: 25px;
+    color: #333;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
