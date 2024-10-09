@@ -82,6 +82,7 @@ const ProductModal: FC<Props> = (props) => {
         file: file,
         description: description
       }
+      onClose()
       alert('Gửi thông tin thành công, vui lòng xem kết quả ở log')
       console.log('Form Data', data)
       resetForm()
